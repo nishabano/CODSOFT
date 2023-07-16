@@ -1,0 +1,52 @@
+.container {
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgb(184, 17, 39),
+    rgb(92, 14, 92),
+    rgb(3, 3, 36)
+  );
+  height: 94vh;
+  width: 230vh;
+}
+h1 {
+  font-size: 38px;
+  text-align: center;
+  color: aliceblue;
+  margin-top: 0px;
+}
+table {
+  margin: auto;
+  padding: 20px;
+}
+input {
+  border: solid black;
+  margin-top: 10px;
+  font-size: 34px;
+  width: 80%;
+  background: rgb(232, 226, 226);
+  border-radius: 10px;
+}
+button {
+  text-shadow: 5px, 4px, 2px lightblue;
+  border-radius: 18px;
+  font-size: 25px;
+  width: 79px;
+  height: 45px;
+  background: rgb(82, 182, 216);
+}
+.calculator {
+  display: inline-block;
+  background-color: blue;
+  border-radius: 13px;
+  padding: 3px;
+}
+.cancel {
+  color: red;
+}
+.operator {
+  color: rgb(4, 54, 4);
+}
+.equal {
+  background: rgb(75, 188, 14);
+}
