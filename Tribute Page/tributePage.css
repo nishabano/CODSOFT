@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(0, 0, 33);
+}
+h1 {
+  text-align: center;
+  color: rgb(233, 226, 17);
+  padding-top: 35px;
+  text-decoration: solid;
+}
+.img-div img {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-caption {
+  text-align: center;
+  color: aliceblue;
+  font-size: large;
+  letter-spacing: 0.3px;
+}
+main {
+  background: rgb(91, 185, 222) !important;
+  height: 108%;
+  width: 75%;
+  margin-left: 12%;
+  margin-right: 8%;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 10%;
+}
+em {
+  font-weight: bold;
+}
+.info {
+  font-family: FontAwesome, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
+}
+.tribute_info {
+  font-size: 20px;
+  padding: 35px;
+}
+h3 {
+  text-decoration: underline;
+  text-decoration-color: yellowgreen;
+  font-style: oblique;
+  font-size: 30px;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  text-shadow: 5px 6px 10px black;
+}
+li {
+  list-style: none;
+  line-height: 40px;
+}
+.timeline_info {
+  word-spacing: 0.5px;
+}
+.quote_container {
+  box-sizing: content-box;
+  width: 50%;
+  padding: 8px;
+  min-height: 18vh;
+  margin-left: 85px;
+  margin-top: 7px;
+  margin-bottom: 6px;
+  box-shadow: 0px 0px 5px 3px;
+  background-color: rgb(91, 185, 222);
+  border-radius: 30px;
+}
+.quote_container p {
+  font-size: 20px;
+}
+.quote_container h4 {
+  text-align: right;
+}
+strong {
+  color: red;
+  padding-right: 15px;
+}
+.quote {
+  font-family: "Dancing Script", cursive;
+  font-size: 27px;
+  color: blue;
+  letter-spacing: 0.5px;
+  word-spacing: 0.4px;
+}
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+  .quote_container {
+    width: 60%;
+  }
+  h1 {
+    font-size: 37px;
+  }
+  .info {
+    letter-spacing: 0.1px;
+    word-spacing: 0.2px;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    width: 90%;
+    margin-left: 4%;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 8%;
+  }
+  html {
+    font-size: 45%;
+  }
+  .quote_container {
+    width: 100%;
+    margin-left: 5px;
+  }
+  li {
+    line-height: 25px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .info {
+    word-spacing: 0.1px;
+  }
+}
